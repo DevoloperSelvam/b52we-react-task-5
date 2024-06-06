@@ -184,4 +184,4 @@ function Career() {
   );
 }
 
-export default  Career;
+export default Career;

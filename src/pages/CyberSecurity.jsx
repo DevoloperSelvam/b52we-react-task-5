@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card';
 
 function CyberSecurity() {
     return (
-        <CardGroup style={{gap:'20px',padding:'40px'}}>
+        <CardGroup style={{ gap: '20px', padding: '40px' }}>
             <Card className='attach'>
                 <Card.Img variant="top" src="https://www.guvi.in/blog/wp-content/uploads/2022/12/Yellow-Blue-Illustration-Business-Blog-Banner-2048x1152.png" />
                 <Card.Body>
@@ -42,7 +42,7 @@ function CyberSecurity() {
                     </Card.Text>
                 </Card.Body>
             </Card>
-            
+
 
         </CardGroup>
 

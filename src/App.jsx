@@ -1,13 +1,11 @@
 
-// src/App.jsx
-
 import AppRoutes from './Routes'; // Import your routes
 import Navbar from './compenents/NavigationMenu';
 
 const App = () => {
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       <AppRoutes />
     </div>
   );

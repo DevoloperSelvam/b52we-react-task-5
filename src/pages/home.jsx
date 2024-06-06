@@ -4,41 +4,9 @@ import CardGroup from 'react-bootstrap/CardGroup';
 import Card from 'react-bootstrap/Card';
 
 
-
-// function AppRouter() {
-//     return (
-//         <div>
-//             <Nav justify variant="tabs" defaultActiveKey="/home">
-//                 <Nav.Item>
-//                     <Nav.Link href="/">All
-//                     </Nav.Link>
-//                 </Nav.Item>
-//                 <Nav.Item>
-//                     <Nav.Link eventKey="/full-stack-development"> Full Stack Development</Nav.Link>
-//                 </Nav.Item>
-//                 <Nav.Item>
-//                     <Nav.Link eventKey="/data-science">Data Science</Nav.Link>
-//                 </Nav.Item>
-//                 <Nav.Item>
-//                     <Nav.Link eventKey="/cyber-security" >Cyber Securety</Nav.Link>
-//                 </Nav.Item>
-//                 <Nav.Item>
-//                     <Nav.Link eventKey="/career" >Career</Nav.Link>
-//                 </Nav.Item>
-//             </Nav>
-//             <div>
-//                 <Display />
-//             </div>
-
-//         </div>
-
-//     )
-
-// }
-
 function Home() {
     return (
-        <CardGroup style={{gap:'20px',padding:'40px'}}>
+        <CardGroup style={{ gap: '20px', padding: '40px' }}>
             <Card className='attach'>
                 <Card.Img variant="top" src="https://www.guvi.in/blog/wp-content/uploads/2022/12/Render-array-of-objects-in-ReactJs.png" />
                 <Card.Body>
@@ -79,7 +47,7 @@ function Home() {
                     <h6> 21 Mar, 2024</h6>
                 </Card.Body>
             </Card>
-            
+
 
         </CardGroup>
 

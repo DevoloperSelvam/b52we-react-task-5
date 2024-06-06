@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card';
 
 function FullStackDevelopment() {
     return (
-        <CardGroup style={{gap:'20px',padding:'40px'}}>
+        <CardGroup style={{ gap: '20px', padding: '40px' }}>
             <Card className='attach'>
                 <Card.Img variant="top" src="https://www.guvi.in/blog/wp-content/uploads/2023/07/person-front-computer-working-html.jpg" />
                 <Card.Body>
@@ -46,7 +46,7 @@ function FullStackDevelopment() {
                     <h6> 22 Mar, 2024</h6>
                 </Card.Body>
             </Card>
-            
+
 
         </CardGroup>
 
